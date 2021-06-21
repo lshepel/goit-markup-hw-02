@@ -1,0 +1,218 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+  --accent-color-second: #212121;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+}
+/*======= HEADER =====*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color-second);
+}
+.logo-b {
+  color: var(--accent-color);
+}
+.menu-link {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color-second);
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+/*======= END HEADER =====*/
+/*======= CONTACT INFORMATION =====*/
+.mail-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mail-info:hover,
+.mail-info:focus {
+  color: var(--accent-color);
+}
+.telephone-info {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.telephone-info:hover,
+.telephone-info:focus {
+  color: var(--accent-color);
+}
+/*======= END CONTACT INFORMATION =====*/
+/*====== HERO =====*/
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.button-hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--accent-color-second);
+}
+.button-hero:hover,
+.button-hero:focus {
+  background-color: var(--accent-color);
+  color: white;
+}
+/*====== END HERO =====*/
+/*======= PREFERENCES =====*/
+.preferences-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color-second);
+}
+.preferences-explanation {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*======= END PREFERENCES =====*/
+/*======= WHAT WE DO =====*/
+.whatwe-do-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-second);
+}
+/*======= WHAT WE DO =====*/
+/*======= OUR TEAM =====*/
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-second);
+}
+.our-team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--accent-color-second);
+}
+.our-team-job {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*======= END OUR TEAM =====*/
+/*======= PROJECTS =====*/
+.button-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--accent-color-second);
+}
+.button-name:hover,
+.button-name:focus {
+  background-color: var(--accent-color);
+  color: white;
+}
+.projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--accent-color-second);
+}
+.projects-purpose {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+/*======= END PROJECTS =====*/
+/*======= FOOTER =====*/
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.logo-c {
+  color: var(--accent-color);
+}
+.place-link {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.place-link:hover,
+.place-link:focus {
+  color: black;
+}
+.address-title-mail {
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-title-mail:hover,
+.address-title-mail:focus {
+  color: black;
+}
+.address-title-phone {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-title-phone:hover,
+.address-title-phone:focus {
+  color: black;
+}
+/*======= END FOOTER =====*/
